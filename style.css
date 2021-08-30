@@ -19,7 +19,7 @@ header{
     margin-right: 70px;
 }
 .text_hit-the-road{
-    padding: 100px;
+    padding: 40px;
 }
 .fire1{
     object-fit: cover;
@@ -50,7 +50,7 @@ header{
     margin-top: 35px;
 }
 .gallery_cards{
-    display: flex;
+    
     width: 100%;
 }
 .gallery_images{
@@ -60,43 +60,6 @@ header{
 .title_features{
     text-align: center;
     margin-top: 35px;
-}
-.fearures_icons{
-    text-align: center;
-    padding: 30px;
-    width: 430px;
-    border-bottom: 2px solid rgb(228, 226, 226);
-    border-right: 2px solid rgb(228, 226, 226);
-}
-.fearures_icons2{
-    text-align: center;
-    padding: 30px;
-    width: 430px;
-    border-bottom: 2px solid rgb(228, 226, 226);
-    border-right: 2px solid rgb(228, 226, 226);
-}
-.fearures_icons3{
-    text-align: center;
-    padding: 30px;
-    width: 430px;
-    border-bottom: 2px solid rgb(228, 226, 226);
-}
-.fearures_icons4{
-    text-align: center;
-    padding: 30px;
-    width: 430px;
-    border-right: 2px solid rgb(228, 226, 226);
-}
-.fearures_icons5{
-    text-align: center;
-    padding: 30px;
-    width: 430px;
-    border-right: 2px solid rgb(228, 226, 226);
-}
-.fearures_icons6{
-    text-align: center;
-    padding: 30px;
-    width: 430px;
 }
 .registration{
     display: flex;
@@ -137,36 +100,246 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
-
-
-
-@media (min-width: 600px) and (max-width: 850px){
-    .first-features{
-        flex-wrap: wrap;
-    }
-    .header_menu{
-        display: flex;
-        justify-content: center;
-        display: none;
-    }
-    .header_icons{
-        display: none;
-    }
-
+.img-fluid{
+    height: 300px;
+    width: 100%;
 }
+.first-header-li{
+    list-style: none;
+}
+
+.first-features{
+    display: flex;
+    justify-content: center;
+}
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+    max-width: 2000px;
+  }
+  #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+    position: relative;
+    display: block;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: rgb(221, 219, 219);
+    background: rgba(206, 196, 194, 0.2);
+    transition: opacity 0.25s ease;
+    text-align: center;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.2rem;
+  }
+  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+  }
+
+  @media (min-width: 1400px){
+    .fearures_icons{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border-bottom: 2px solid rgb(228, 226, 226);
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+        border-left: none;
+    }
+    .fearures_icons2{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border-bottom: 2px solid rgb(228, 226, 226);
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+    }
+    .fearures_icons3{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+        border-right: none;
+        
+    }
+    .fearures_icons4{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-bottom: none;
+        
+    }
+    .fearures_icons5{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-bottom: none;
+
+        
+    }
+    .fearures_icons6{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-bottom: none;
+        border-right: none;
+        
+    }
+
+  }
+
+  @media (min-width: 850px) and (max-width: 1400px){
+    .fearures_icons{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-top: none;
+        border-left: none;
+        
+        
+    }
+    .fearures_icons2{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+        border-top: none;
+        
+    }
+    .fearures_icons3{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        
+    }
+    .fearures_icons4{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+    }
+    .fearures_icons5{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-bottom:none ;
+
+    }
+    .fearures_icons6{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+        border-bottom:none ;
+    }
+
+  }
+
 @media (max-width: 600px){
     .first-features{
         flex-wrap: wrap;
     }
-    .header_icons{
-        display: none;
+    .first_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .thirth_content{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
-@media (min-width: 850px){
+@media (max-width: 990px){
+    .first_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .thirth_content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .first-features{
         flex-wrap: wrap;
     }
     .li-menu-none{
         display: none;
+    }
+    .fearures_icons{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+        
+    }
+    .fearures_icons2{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+    }
+    .fearures_icons3{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+    }
+    .fearures_icons4{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-right: none;
+        border-left: none;
+    }
+    .fearures_icons5{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
+        
+
+    }
+    .fearures_icons6{
+        text-align: center;
+        padding: 30px;
+        width: 430px;
+        border: 2px solid rgb(228, 226, 226);
+        border-left: none;
+        border-right: none;
     }
 }
